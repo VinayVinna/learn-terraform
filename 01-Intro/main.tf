@@ -40,5 +40,5 @@ output "y"{
 }
 
 output "z"{
-  value = "Name - ${var.z["name"]}, age - ${var.z["age"]}"
+  value = "Name - ${var.z["name"]}, age - ${var.z.age}"
 }
