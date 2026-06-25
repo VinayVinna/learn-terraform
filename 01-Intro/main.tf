@@ -19,5 +19,5 @@ output "x" {
 
 #If our value is just a variable then var.x, if it is the combination of strings then "${var.x}"
 output "x1" {
-  value = "value of x - "${var.x}"
+  value = "value of x - ${var.x}"
 }
