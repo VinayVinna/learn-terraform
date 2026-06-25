@@ -50,3 +50,14 @@ variable "input" {}
 output "input"{
   value = var.input
 }
+
+# auto.tfvars - automatically these files are loaded
+variable "class" {}
+output "class" {
+  value = var.class
+}
+
+variable "trainer" {}
+output "trainer" {
+  value = var.trainer
+}
